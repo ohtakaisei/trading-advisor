@@ -1,0 +1,28 @@
+# 機密情報
+.env
+backend/.env
+
+# レポート（ローカル生成物）
+backend/reports/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
