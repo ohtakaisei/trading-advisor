@@ -85,6 +85,6 @@ SCREENING_RULES = ScreeningRules()
 
 
 # ── LLM Configuration ─────────────────────────────────────────────────────────
-LLM_MODEL: str = "gpt-4o"
+LLM_MODEL: str = "gpt-4o-mini"
 LLM_TEMPERATURE: float = 0.0
 AGENT_MAX_ITERATIONS: int = 15
