@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: trading-advisor
+    runtime: python
+    buildCommand: bash build.sh
+    startCommand: cd backend && gunicorn main:app --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: OPENAI_API_KEY
+        sync: false

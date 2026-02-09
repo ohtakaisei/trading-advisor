@@ -6,3 +6,5 @@ yfinance
 pandas-ta
 pandas
 python-dotenv
+gunicorn
+langgraph
